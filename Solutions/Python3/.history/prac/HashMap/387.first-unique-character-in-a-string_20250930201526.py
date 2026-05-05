@@ -11,14 +11,12 @@ class Solution:
         s = list(s)
         result = -1
 
+        d[s[0]] = 0
 
-        for i, m in enumerate(s):
-            if m not in s[1:]:
-                result = i
-                break
-                
+        for i, st in enumerate(s[1:]):
             
         
-        return result        
+        return 
+        
 # @lc code=end
 

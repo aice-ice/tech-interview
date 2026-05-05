@@ -12,7 +12,7 @@ class Solution:
         result = -1
 
 
-        for i, m in enumerate(s):
+        for i, m in enumerate(s[1:]):
             if m not in s[1:]:
                 result = i
                 break
